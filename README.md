@@ -1,9 +1,6 @@
-# kfz-seller-h5
+# Chensyl-alpha
 
 # 介绍
-
-# 访问路径
-http://dev.seller.kfz.com:8080/dist/views/commodity-manage/commodity-manage.html
 
 > 安装依赖
 
