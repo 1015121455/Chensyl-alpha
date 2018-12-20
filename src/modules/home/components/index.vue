@@ -25,7 +25,12 @@
 
         },
         methods: {
-
+            init(){
+                console.log('11111111111111');
+            }
+        },
+        created(){
+            this.init();
         }
     }
 </script>
