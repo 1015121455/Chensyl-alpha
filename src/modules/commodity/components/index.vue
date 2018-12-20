@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <list></list>
+        <chen-nav></chen-nav>
     </div>
 </template>
 <script>
@@ -9,13 +9,11 @@
     import _ from 'lodash'
     import '../../../common/css/base.css';
     import '../../../fonts/iconfont.css';
-    import '../css/shop.css';
-    import list from './list';
-    import KfzJSBridge from '../../../common/utils/KfzJsBridge';
+    import ChenNav from "./chenNav";
 
     export default {
         components: {
-            list
+            ChenNav
         },
         data() {
             return {

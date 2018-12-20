@@ -2,14 +2,15 @@ import Vue from 'vue';
 // import VueRouter from 'vue-router';
 // import routes from './routes'
 import store from './store';
-import demo from './components';
+import shop from './components';
 // import FastClick from 'fastclick'
 // import VueLazyload from 'vue-lazyload'
+import 'babel-polyfill';
 
 let vm = new Vue({
-    el: '#app',
+    el: '#chen',
     store,
-    render: h => h(demo)
+    render: h => h(shop)
 });
 
 

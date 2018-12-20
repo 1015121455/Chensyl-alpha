@@ -16,7 +16,7 @@ var FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 //各文件夹的路径
 var ROOT_PATH = path.resolve(__dirname);
 var SRC_PATH = path.resolve(ROOT_PATH, 'src/modules/'); //源码目录
-var DIST_PATH = path.resolve(ROOT_PATH, 'dist'); //生产环境目录打包目录
+var DIST_PATH = path.resolve(ROOT_PATH, 'webroot'); //生产环境目录打包目录
 var VIEWS_PATH = path.resolve(ROOT_PATH, 'src/views/'); //模板目录
 var NODE_MODULES = path.resolve(ROOT_PATH, 'node_modules'); //npm包目录
 
@@ -92,7 +92,7 @@ if(isProduction || isTest){
 }
 
 //设置资源路径
-var pubPath = '//dev.seller.kfz.com:8080/dist/';
+var pubPath = 'http://localhost:8080/webroot/';
 if(isTest){
     //支持https
     pubPath = '//neibum.kongfz.com/h5/seller/';
@@ -199,7 +199,7 @@ module.exports = {
   ].concat(plugins),
    devtool: (isProduction ? '' : 'source-map')
    ,devServer: {
-        contentBase:"./dist",
+        contentBase:"./webroot",
         historyApiFallback: true,
         disableHostCheck: true,
         hot: true,
@@ -210,11 +210,11 @@ module.exports = {
             colors: true
         },
         proxy: {
-            '/': {
+            /*'/': {
                 target: 'http://seller.kfz.com',
                 secure: true,
                 changeOrigin: true
-            }
+            }*/
         }
     }
 };

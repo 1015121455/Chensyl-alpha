@@ -23,7 +23,7 @@ var gulp = require('gulp');
 gulp.task('copy', function () {
     gulp.src('static/img/*')
         // 目标地址
-        .pipe(gulp.dest('dist/img/'))
+        .pipe(gulp.dest('webroot/img/'))
 
 });
 
