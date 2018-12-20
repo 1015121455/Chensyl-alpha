@@ -8,7 +8,7 @@ import shop from './components';
 import 'babel-polyfill';
 
 let vm = new Vue({
-    el: '#chen',
+    el: '#app',
     store,
     render: h => h(shop)
 });

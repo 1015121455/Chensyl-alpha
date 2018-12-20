@@ -95,9 +95,9 @@ if(isProduction || isTest){
 var pubPath = 'http://localhost:8080/webroot/';
 if(isTest){
     //支持https
-    pubPath = '//neibum.kongfz.com/h5/seller/';
+    pubPath = 'http://neibuwww.chensyl.com/';
 }else if(isProduction){
-    pubPath = '//m.kongfz.com/h5/seller/';
+    pubPath = 'http://www.chensyl.com/';
 }
 
 module.exports = {
