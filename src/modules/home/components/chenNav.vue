@@ -14,7 +14,7 @@
         },
         data() {
             return {
-                name:''
+                name:'测试上传~~~~~~~~'
             }
         },
         watch:{

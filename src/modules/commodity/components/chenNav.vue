@@ -14,7 +14,7 @@
         },
         data() {
             return {
-                name:'晨霜炎凉Forever'
+                name:'晨霜炎凉Forever~~~~~~~~~~~~'
             }
         },
         watch:{
