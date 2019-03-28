@@ -14,7 +14,7 @@
         },
         data() {
             return {
-                name:'测试上传~~~~~~~~'
+                name:'晨霜阁'
             }
         },
         watch:{
