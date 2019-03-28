@@ -1,6 +1,6 @@
-<style src="../css/nav.css"></style>
+<style src="../css/nav.less"></style>
 <template>
-    <div class="nav-box">{{name}}</div>
+    <div class="yl-nav-box">{{name}}</div>
 </template>
 <script>
     import {mapState, mapGetters,mapActions} from 'vuex';

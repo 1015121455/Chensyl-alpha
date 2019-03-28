@@ -1,6 +1,9 @@
+<style src="../css/index.less"></style>
 <template>
     <div id="app">
-        <chen-nav></chen-nav>
+        <div class="body-box">
+            <chen-nav></chen-nav>
+        </div>
     </div>
 </template>
 <script>
