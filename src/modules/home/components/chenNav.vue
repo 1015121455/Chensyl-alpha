@@ -1,11 +1,13 @@
 <style src="../css/nav.less"></style>
 <template>
-    <div class="chens-nav-box">{{name}}</div>
-    <ul class="chens-list">
-        <li class="chens-list" v-for="(item,index) in list">
-            {{item}}
-        </li>
-    </ul>
+    <div>
+        <div class="chens-nav-box">{{name}}</div>
+        <ul class="chens-list">
+            <li class="chens-list" v-for="(item,index) in list">
+                {{item}}
+            </li>
+        </ul>
+    </div>
 </template>
 <script>
     import {mapState, mapGetters,mapActions} from 'vuex';
