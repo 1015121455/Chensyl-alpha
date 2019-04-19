@@ -92,7 +92,7 @@ if(isProduction || isTest){
 }
 
 //设置资源路径
-var pubPath = 'http://localhost:8080/webroot/';
+var pubPath = 'http://localhost:8080/';
 if(isTest){
     //支持https
     pubPath = 'http://neibuwww.chensyl.com/';
