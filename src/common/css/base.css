@@ -2,9 +2,8 @@
 /*
  * name:base.css
  * intro:基础样式，所有页面必须引用此样式，也可在打包时与业务css合并
- * version: v4.0
- * author: luoronghang
- * date: 2018/03/23
+ * author: yanliang
+ * date: 2019.04.19
 */
 
 /* reset */
@@ -63,8 +62,3 @@ iframe{width:0;height:0;line-height:0;overflow:hidden;}
 
 /* 全局通用 */
 #app{width:100%;height:auto;overflow:hidden;}
-
-.topbar{height:52px;background-color: #f2f2f2;position: relative;}
-.topbar .btn_back{display: none;width:10%;height:52px;position:relative;z-index:11;float: left;}
-.topbar .btn_back i{display:block;width: 10px;height: 10px;border-bottom: 2px solid #666666;border-left: 2px solid #666666;position: absolute;left:17px;top:20px;-webkit-transform:rotate(45deg);}
-.topbar .title{width:100%;text-align: center;line-height: 52px;font-size: 18px;color: #666;position:absolute;z-index:10;left:0px;top:0px;}
